@@ -1,12 +1,11 @@
 package com.geekster.Restaurant_Management_Service_API.Model;
 
-import jakarta.persistence.*;
-import jakarta.validation.constraints.Email;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
+import javax.persistence.*;
+import javax.validation.constraints.Email;
 
 @Data
 @Entity
